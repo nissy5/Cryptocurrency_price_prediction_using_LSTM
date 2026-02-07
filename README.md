@@ -6,7 +6,7 @@ ________________________________________________________________________________
 This project focuses on predicting cryptocurrency prices using a Long Short-Term Memory (LSTM) deep learning model. It analyzes historical price data to forecast future trends, helping in understanding market behavior through time series modeling.
 
 
-🚀 Project Overview
+🚀 #Project Overview
 _________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Cryptocurrency markets are highly volatile and influenced by multiple factors. This project applies Deep Learning (LSTM) to capture temporal dependencies in historical price data and predict future prices.
