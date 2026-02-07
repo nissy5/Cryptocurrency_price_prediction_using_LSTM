@@ -5,7 +5,7 @@ This project focuses on predicting cryptocurrency prices using a Long Short-Term
 
 
 🚀 Project Overview
-______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Cryptocurrency markets are highly volatile and influenced by multiple factors. This project applies Deep Learning (LSTM) to capture temporal dependencies in historical price data and predict future prices.
 
@@ -23,6 +23,7 @@ The system:
 
 
 🧠 Why LSTM?
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Traditional machine learning models struggle with time series dependencies.
 LSTM (Long Short-Term Memory) networks are used because they:
@@ -35,6 +36,7 @@ LSTM (Long Short-Term Memory) networks are used because they:
 
 
 🛠️ Technologies Used
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
    Python
 
@@ -52,6 +54,7 @@ LSTM (Long Short-Term Memory) networks are used because they:
 
 
 📂 Dataset
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 The dataset contains historical cryptocurrency price data such as:
 
@@ -75,6 +78,7 @@ The dataset contains historical cryptocurrency price data such as:
 
 
 ⚙️ Model Architecture
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 The LSTM model consists of:
 
@@ -90,6 +94,7 @@ The LSTM model consists of:
 
 
 🔄 Workflow
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
   Import dataset
 
@@ -109,6 +114,7 @@ The LSTM model consists of:
 
 
 📊 Output
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 The project generates:
 
@@ -120,9 +126,10 @@ The project generates:
 
 
 🎯 Conclusion
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 This project demonstrates how deep learning, specifically LSTM networks, can be used to model and predict cryptocurrency price trends. It highlights the power of neural networks in financial time series forecasting.
 
 🎓 Author
-
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 Nissy Sajitha Pulukuri
