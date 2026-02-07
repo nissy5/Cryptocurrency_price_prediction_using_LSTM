@@ -10,15 +10,15 @@ Cryptocurrency markets are highly volatile and influenced by multiple factors. T
 
 The system:
 
-Collects historical cryptocurrency price data
+  Collects historical cryptocurrency price data
 
-Preprocesses and normalizes the dataset
+  Preprocesses and normalizes the dataset
 
-Trains an LSTM neural network
+  Trains an LSTM neural network
 
-Predicts future price values
+  Predicts future price values
 
-Visualizes actual vs predicted prices
+  Visualizes actual vs predicted prices
 
 
 🧠 Why LSTM?
@@ -26,96 +26,96 @@ Visualizes actual vs predicted prices
 Traditional machine learning models struggle with time series dependencies.
 LSTM (Long Short-Term Memory) networks are used because they:
 
-Handle sequential data effectively
+  Handle sequential data effectively
 
-Remember long-term dependencies
+  Remember long-term dependencies
 
-Perform well in financial time series forecasting
+  Perform well in financial time series forecasting
 
 
 🛠️ Technologies Used
 
-Python
+   Python
 
-TensorFlow / Keras
+   TensorFlow / Keras
 
-NumPy
+   NumPy
+  
+   Pandas
 
-Pandas
+   Matplotlib
 
-Matplotlib
+   Scikit-learn
 
-Scikit-learn
-
-Google Colab / Jupyter Notebook
+   Google Colab / Jupyter Notebook
 
 
 📂 Dataset
 
 The dataset contains historical cryptocurrency price data such as:
 
-Open price
+  Open price
 
-Close price
+  Close price
 
-High price
+  High price
 
-Low price
+  Low price
 
-Volume
+  Volume
 
-The data is preprocessed using:
+  The data is preprocessed using:
 
-Missing value handling
+  Missing value handling
 
-Feature scaling (MinMaxScaler)
+  Feature scaling (MinMaxScaler)
 
-Time series windowing
+  Time series windowing
 
 
 ⚙️ Model Architecture
 
 The LSTM model consists of:
 
-Input Layer
+  Input Layer
 
-One or more LSTM layers
+  One or more LSTM layers
 
-Dropout layers (to reduce overfitting)
+  Dropout layers (to reduce overfitting)
 
-Dense output layer
+  Dense output layer
 
-The model is trained using historical sequences of prices to predict the next value.
+  The model is trained using historical sequences of prices to predict the next value.
 
 
 🔄 Workflow
 
-Import dataset
+  Import dataset
 
-Data preprocessing & normalization
+  Data preprocessing & normalization
 
-Train-test split
+  Train-test split
 
-Create time series sequences
+  Create time series sequences
 
-Build LSTM model
+  Build LSTM model
 
-Train the model
+  Train the model
 
-Make predictions
+  Make predictions
 
-Visualize results
+  Visualize results
 
 
 📊 Output
 
 The project generates:
 
-Predicted vs Actual price graphs
+  Predicted vs Actual price graphs
 
-Model loss visualization
+  Model loss visualization
 
-Future trend predictions
+  Future trend predictions
 
 
 🎯 Conclusion
