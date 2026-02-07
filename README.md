@@ -1,4 +1,3 @@
-Cryptocurrency_price_prediction_using_LSTM
 
 📈 Cryptocurrency Price Prediction Using LSTM
 
