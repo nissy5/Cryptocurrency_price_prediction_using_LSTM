@@ -1,5 +1,6 @@
-
+CRYPTOCURRENCY PRICE PREDICTION USING LSTM
 📈 Cryptocurrency Price Prediction Using LSTM
+_________________________________________________________________________________________________________________________________________________________________________________________________________
 
 This project focuses on predicting cryptocurrency prices using a Long Short-Term Memory (LSTM) deep learning model. It analyzes historical price data to forecast future trends, helping in understanding market behavior through time series modeling.
 
