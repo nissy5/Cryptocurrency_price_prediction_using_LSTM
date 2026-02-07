@@ -1,2 +1,128 @@
-# Cryptocurrency_price_prediction_using_LSTM
-This repository contains solved multiple-choice and fill-in-the-blank questions from the Diploma in Fundamentals of Artificial Intelligence. It covers core AI concepts including logic, search, planning, probability, learning, games, and reasoning under uncertainty, useful for exam preparation and quick revision.
+Cryptocurrency_price_prediction_using_LSTM
+
+📈 Cryptocurrency Price Prediction Using LSTM
+
+This project focuses on predicting cryptocurrency prices using a Long Short-Term Memory (LSTM) deep learning model. It analyzes historical price data to forecast future trends, helping in understanding market behavior through time series modeling.
+
+
+🚀 Project Overview
+
+Cryptocurrency markets are highly volatile and influenced by multiple factors. This project applies Deep Learning (LSTM) to capture temporal dependencies in historical price data and predict future prices.
+
+The system:
+
+Collects historical cryptocurrency price data
+
+Preprocesses and normalizes the dataset
+
+Trains an LSTM neural network
+
+Predicts future price values
+
+Visualizes actual vs predicted prices
+
+
+🧠 Why LSTM?
+
+Traditional machine learning models struggle with time series dependencies.
+LSTM (Long Short-Term Memory) networks are used because they:
+
+Handle sequential data effectively
+
+Remember long-term dependencies
+
+Perform well in financial time series forecasting
+
+
+🛠️ Technologies Used
+
+Python
+
+TensorFlow / Keras
+
+NumPy
+
+Pandas
+
+Matplotlib
+
+Scikit-learn
+
+Google Colab / Jupyter Notebook
+
+
+📂 Dataset
+
+The dataset contains historical cryptocurrency price data such as:
+
+Open price
+
+Close price
+
+High price
+
+Low price
+
+Volume
+
+The data is preprocessed using:
+
+Missing value handling
+
+Feature scaling (MinMaxScaler)
+
+Time series windowing
+
+
+⚙️ Model Architecture
+
+The LSTM model consists of:
+
+Input Layer
+
+One or more LSTM layers
+
+Dropout layers (to reduce overfitting)
+
+Dense output layer
+
+The model is trained using historical sequences of prices to predict the next value.
+
+
+🔄 Workflow
+
+Import dataset
+
+Data preprocessing & normalization
+
+Train-test split
+
+Create time series sequences
+
+Build LSTM model
+
+Train the model
+
+Make predictions
+
+Visualize results
+
+
+📊 Output
+
+The project generates:
+
+Predicted vs Actual price graphs
+
+Model loss visualization
+
+Future trend predictions
+
+
+🎯 Conclusion
+
+This project demonstrates how deep learning, specifically LSTM networks, can be used to model and predict cryptocurrency price trends. It highlights the power of neural networks in financial time series forecasting.
+
+🎓 Author
+
+Nissy Sajitha Pulukuri
